@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="icon" type="icon.ico" href="/images/favicon.ico" />
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&family=Noto+Sans+JP:wght@100;400;500;700;900&family=Quicksand:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome CDN -->
+    <script
+      src="https://kit.fontawesome.com/11a2305fbc.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsiveIndex.css" />
+  </head>
+
+  <body class="bg" >
+    <nav class="navigation" style="background-color: lightgreen">
+      <div class="navigation-container">
+        <div class="left-side-nav">
+          <a class="active-logo" href="index.html">
+            <!-- <div class="yellow-circle"></div> -->
+            <span class="name noto-sans-font" style="padding: 20px">Sachin's </span>
+            <span class="profession" style="font-size: 20px">Portfolio</span>
+          </a>
+        </div>
+
+        <div class="ham-burger">
+          <span class="lines line1"></span>
+          <span class="lines line2"></span>
+          <span class="lines line3"></span>
+        </div>
+      </div>
+      <div class="right-side-nav"">
+        <ul class="nav-ul">
+          <li class="nav-li">
+            <a
+              class="nav-link2 noto-sans-font nav-links"
+              href="./html/projects.html"
+              >Projects</a
+            >
+          </li>
+          <span class="bars">|</span>
+          <li class="nav-li">
+            <a
+              class="nav-link1 noto-sans-font nav-links"
+              href="./html/about.html"
+              >About</a
+            >
+          </li>
+          <span class="bars" style="padding-right: 5px">|</span>
+          <li class="nav-li">
+            <a
+              class="nav-link2 noto-sans-font nav-links"
+              href="./html/projects.html"
+              >Projects</a
+            >
+          </li>
+          <span class="bars">|</span>
+          <li class="nav-li">
+            <a
+              class="nav-link3 noto-sans-font nav-links"
+              href="./html/contact.html"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Section..... -->
+    <section id="main">
+      <div class="main-container">
+        <div class="main-img">
+          <img src="images/flower.jpg" alt="" srcset="" />
+        </div>
+        <div class="main-about">
+          <h2 class="main-heading">Greetings</h2>
+          <br>
+          <div class="main-text-container">
+            <h2 class="main-sub-heading">About Me</h2>
+            <p class="main-text" style="font-size: large;">
+              I'm a Student. Currently in Second year of BTech in CSE from India. Really 
+              passionate about Tech and career in Computer Science. In free time I like reading Books and
+              Watch Anime. I really enjoy solving Problems ,
+              Coding and currently am sharpening my skills in Full Stack Development.
+              
+            </p>
+          </div>
+          <br>
+          <br>
+          <div class="btns">
+            <a class="btn-spacing" href="./html/index.html"
+              ><button class="btn btn0" >Home</button></a
+            >
+            <a class="btn-spacing" href="./html/about.html"
+              ><button class="btn btn1" >About</button></a
+            >
+
+            <a class="btn-spacing" href="./html/projects.html"
+              ><button class="btn btn2">Projects</button></a
+            >
+            <a class="btn-spacing" href="./html/contact.html"
+              ><button class="btn btn3" id="contact-btn">Contact</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr class="hr" />
+    <section id="footer">
+      <footer class="footer-container">
+        <div class="phone">
+          <h3 class="">Phone:</h3>
+          <p>+91 12345678xx</p>
+        </div>
+        <div class="Email">
+          <h3 class="">Email:</h3>
+          <p>sachinxyz@gmail.com</p>
+        </div>
+        <div class="social-links">
+          <h3 class="">Connet With Me:</h3>
+          <div class="icons">
+            <a
+              class="profile-links"
+              href="https://www.linkedin.com/in/sachin-shiv-anand-282004154/" target="_blank"
+              ><i class="fa-brands fa-linkedin-in text-2xl" ></i
+            ></a>
+          
+            <a class="profile-links" href="https://twitter.com/ImSachin_1" target="_blank"
+              ><i class="fa-brands fa-twitter text-2xl" ></i
+            ></a>
+            <a class="profile-links" href="https://github.com/Sachinshiv1" target="_blank" > 
+              <i class="fa-brands fa-github text-2xl" ></i
+            ></a>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>&copy; Portfolio:</p>
+          <p>Created by Sachin.</p>
+        </div>
+      </footer>
+    </section>
+    <script src="javascript/index.js"></script>
+  </body>
+</html>
